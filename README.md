@@ -7,6 +7,57 @@ This document outlines the testing strategy for the Todo React App using Cypress
 ## Test Structure
 Tests will be organized into test suites corresponding to the different components and functionalities of the Todo App. Each test suite will contain multiple test cases covering various scenarios.
 
+## Test Cases
+
+1. **Focus Input on Load**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that the input field is focused when the page loads.
+  
+2. **Accepts Input**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that the input field accepts user input correctly.
+
+3. **Adds a New Todo**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that a new todo is added when submitted.
+
+4. **Marks a Todo as Completed**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that a todo can be marked as completed.
+
+5. **Deletes a Todo**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that a todo can be deleted.
+
+6. **Edits a Todo**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that a todo can be edited.
+
+7. **Filters Todos**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that todos can be filtered based on completion status.
+
+8. **Clears Completed Todos**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that completed todos can be cleared.
+
+9. **Toggles All Todos**
+   - **Type of Test:** UI Test
+   - **Cases:**
+     - Verify that all todos can be toggled between completed and active states.
+
+## Conclusion
+
+This test plan provides a comprehensive overview of the test cases for each component of the todo list application. By following these test cases, we ensure that the application functions as expected and meets the specified requirements.
+
 
 ## Running React App and Tests
 

@@ -22,7 +22,7 @@ export function Input({ onSubmit, placeholder, label, defaultValue, onBlur }) {
         if (onBlur)
             onBlur();
     }, [onBlur]);
-
+    
     const handleKeyDown = useCallback(
         (e) => {
             if (e.key === "Enter") {
